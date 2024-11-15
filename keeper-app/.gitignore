@@ -1,0 +1,43 @@
+# Node modules
+/node_modules/
+
+# Build output (React app build directory)
+/build/
+
+# Testing directories
+/coverage/
+
+# IDE or editor-specific files
+/.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (for local secrets or variables)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# NPM package lock file (optional, but useful to keep in some cases)
+# package-lock.json
+# yarn.lock
+
+# React Native specific (if applicable)
+/.expo/
+/.expo-shared/
+
+# TypeScript (if applicable)
+# build artifacts
+*.tsbuildinfo
+

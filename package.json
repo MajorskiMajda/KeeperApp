@@ -1,0 +1,22 @@
+{
+  "name": "keeperapp",
+  "version": "1.0.0",
+  "description": "A Note Keeping App Inspired by Google Keep",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Majda Majorski",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/material": "^6.1.6",
+    "@mui/system": "^6.1.6",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}

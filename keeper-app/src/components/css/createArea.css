@@ -1,0 +1,50 @@
+
+  .message-div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    flex-direction: column;  
+    text-align: center;   
+      
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    gap: 8px;   
+    border-radius: 30px;  
+    width: fit-content;
+    padding: 10px;       
+    margin-top: 20px;    
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); 
+  }
+  
+  .error {
+    color: rgb(255, 255, 255);    
+    background-color: red;         
+  }
+  
+  .success {
+    color: rgb(253, 255, 253);      
+    background-color: green;    
+  }
+  .no-notes-message {
+    font-size: 16px;             
+    color: #777;                 
+    text-align: center;          
+    padding: 20px;              
+    background-color: #f4f4f4;   
+    border-radius: 8px;        
+    border: 1px solid #ddd;     
+    max-width: 400px;            
+    margin: 20px auto;           
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    font-weight: 500;            
+  }
+  .no-notes-div{
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
