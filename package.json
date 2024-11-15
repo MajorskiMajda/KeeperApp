@@ -5,10 +5,9 @@
   "main": "App.mjs",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node App.mjs",
-    "build": "cd client && npm install && npm run build", 
-    "postinstall": "npm run build"  
+    "build": "cd client && npm install && npm run build",  
+    "start": "node server/App.mjs",  
+    "postinstall": "cd client && npm install"  
   },
   "author": "Majda Majorski",
   "license": "ISC",
