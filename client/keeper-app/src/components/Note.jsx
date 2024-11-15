@@ -8,7 +8,7 @@ export function Note(props) {
     const [loading, setLoading] = useState(true);
 
         useEffect(() => {
-        fetch('http://localhost:5001/notes')  
+        fetch('https://keeperapp-2-y2a4.onrender.com/notes')  
             .then((response) => response.json())
             .then((data) => {
                 setNotes(data);       
