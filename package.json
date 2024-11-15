@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "cd client && npm install && npm run build",  
-    "start": "node server/App.mjs",  
-    "postinstall": "cd client && npm install"  
+    "start": "node server/App.mjs"
   },
   "author": "Majda Majorski",
   "license": "ISC",
