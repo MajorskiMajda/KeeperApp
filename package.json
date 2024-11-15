@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node App.mjs"
+    "start": "node App.mjs",
+    "build": "cd client && npm install && npm run build", 
+    "postinstall": "npm run build"  
   },
   "author": "Majda Majorski",
   "license": "ISC",
