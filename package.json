@@ -2,10 +2,11 @@
   "name": "keeperapp",
   "version": "1.0.0",
   "description": "A Note Keeping App Inspired by Google Keep",
-  "main": "App.js",
+  "main": "App.mjs",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd client && npm install && npm run build",  
+    "start": "node server/App.mjs"
   },
   "author": "Majda Majorski",
   "license": "ISC",
